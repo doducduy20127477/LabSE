@@ -12,11 +12,6 @@ app.engine(".hbs", expressHbs.engine());
 // Định nghĩa view sử dụng hbs (view là file hbs)
 app.set("view engine", ".hbs");
 
-// // Định nghĩa các trang
-// app.get("/", (req, res) => {
-//   res.send("Xin chào ");
-// });
-
 app.get("/index", (req, res) => {
   // Đường dẫn là /index --> sẽ gọi đến file index.hbs
   res.render("index", { layout: false });

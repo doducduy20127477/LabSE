@@ -3,24 +3,21 @@
   border-color: transparent !important;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
 }
 .navbar-default .navbar-brand {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 900;
 }
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-  color: #000;
+  color: #fff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
   background-color: none;
-}
-.carousel-caption {
-  padding-bottom: 230px;
 }
